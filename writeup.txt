@@ -13,7 +13,7 @@
 
 \section{Intro}
 
-Overall I found this project to be an effective synthesis of the course as a whole. Not only does it cause us to bring together every element of course curriculum gleaned throughout the semester but it gets us to think about the underlying mechanics of OCaml and other languages in a way that I personally have never thought of before in such detail. With the exception of the time involvement, I have found this project very fulfilling and enjoyable and I appreciated the creative freedom of the extensions.
+Overall I found this project to be an effective synthesis of my understanding of OCaml as a whole. Not only did it cause me to bring together every element of my understanding of this high-level multi-paradigm programming language but it got me to think about the underlying mechanics of other languages in a way that I personally have never thought of before in such detail. With the exception of the time involvement, I have found this project very fulfilling and enjoyable and I appreciated the creative freedom of the extensions.
 
 \section{Extension: Atomic Type - Unit}
 Starting with the simplest of the extensions we have the unit value. There is next to no functionality with the unit type so I didn't need to implement any unop, binop, or other functions as a result. I implemented units by creating a varid type:\\
@@ -98,7 +98,7 @@ Then, I call the eval\_e function and update the reference to the environment to
 let res, env' = Ev.eval_e exp !env in
          env := env' ;
 \end{minted}
-And with that we have our completed miniml language fitted with many different modes of evaluations, atomic types like floats, strings, and units, and last but not least, reference types and mutable storage.
+And with that we have our completed MiniML language fitted with many different modes of evaluations, atomic types like floats, strings, and units, and last but not least, reference types and mutable storage.
 
 
 
