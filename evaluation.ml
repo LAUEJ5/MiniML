@@ -112,7 +112,7 @@ module Env : ENV =
   Each evaluator is of type `expr -> Env.env -> Env.value` for
   consistency, though some of the evaluators don't need an
   environment, and some will only return values that are "bare
-  values" (that is, not closures). 
+  values" (that is, not closures).  *)
 
 (* The TRIVIAL EVALUATOR, which leaves the expression to be evaluated
    essentially unchanged, just converted to a value for consistency
