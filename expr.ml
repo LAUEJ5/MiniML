@@ -1,5 +1,4 @@
 (* 
-                         CS 51 Final Project
                         MiniML -- Expressions
 *)
 
@@ -108,6 +107,7 @@ let new_varname : unit -> varid =
 (* subst var_name repl exp -- Return the expression `exp` with `repl`
    substituted for free occurrences of `var_name`, avoiding variable
    capture *)
+   
 let rec subst (var_name : varid) (repl : expr) (exp : expr) : expr =
   let subpartial = subst var_name repl in
   match exp with
