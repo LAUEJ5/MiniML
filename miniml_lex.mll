@@ -1,5 +1,4 @@
 (* 
-                         CS 51 Final Project
                       MiniML -- Lexical Analyzer
 
  *)
