@@ -2,8 +2,8 @@ Metacircular OCaml language Interpreter with no type inference, ensuring Turing-
 
 To execute the program, first select which method of evaluation you would like it to perfom in the very bottom of the evaluation.ml file. Next run the following commands in your terminal:
 
-1. # make all
-2. # ocamlbuild -use-ocamlfind miniml.byte
-3. # ./miniml.byte
+1. \# make all
+2. \# ocamlbuild -use-ocamlfind miniml.byte
+3. \# ./miniml.byte
 
 Et voila! Happy evaluating!
